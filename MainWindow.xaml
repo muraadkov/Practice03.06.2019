@@ -1,0 +1,20 @@
+﻿<Window x:Class="Practice03._06._2019.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice03._06._2019"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Click="Download_Click" Content="Скачать" HorizontalAlignment="Left" Margin="117,286,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button Click="Button_Click" Content="Посчитать" HorizontalAlignment="Left" Margin="603,286,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="urlOfFile" HorizontalAlignment="Left" Height="23" Margin="117,220,0,0" TextWrapping="Wrap" Text="https://avatarko.ru/img/kartinka/8/zhivotnye_kot_7201.jpg" VerticalAlignment="Top" Width="357"/>
+        <TextBox Name="nameOfFile" HorizontalAlignment="Left" Height="23" Margin="117,248,0,0" TextWrapping="Wrap" Text="zhivotnye_kot_7201.jpg" VerticalAlignment="Top" Width="242"/>
+        <Label Content="URL файла: " HorizontalAlignment="Left" Margin="41,220,0,0" VerticalAlignment="Top" Height="23" Width="71"/>
+        <Label Content="Название файла:" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top" Width="102" Height="26"/>
+        <TextBox Name="countOfFactorial" HorizontalAlignment="Left" Height="23" Margin="603,248,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Число факториала:" HorizontalAlignment="Left" Margin="473,248,0,0" VerticalAlignment="Top" Height="26" Width="121"/>
+
+    </Grid>
+</Window>
